@@ -829,10 +829,11 @@ body {
 }
 
 .input-text {
-  display: inline-block;
+  /* display: inline-block; */
+  display: block; 
   font-size: 12px;
-  line-height: 1.16;
-  letter-spacing: 0.01em;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
   color: #8e8f99;
   margin-bottom: 4px;
 }
