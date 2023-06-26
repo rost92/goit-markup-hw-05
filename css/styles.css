@@ -845,7 +845,7 @@ body {
   transform: translatey(-50%);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.textarea{
+.modal-textarea{
   margin-bottom: 16px;
 }
 
@@ -869,9 +869,17 @@ body {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .accent-check{
+  height: 16px;
+  width: 16px;
   color: #4D5AE5;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 2px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   text-decoration: underline;
-  display: inline;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  fill: transparent;
   letter-spacing: 0.03em;
 
 }
@@ -887,14 +895,16 @@ body {
 
   color: rgba(117, 117, 117, 0.5);
 }
-
+.modal-checkbox{
+  margin-bottom: 24px;
+}
 .check-text {
   display: flex;
   font-size: 12px;
-  line-height: 1.33;
+  line-height: 1.17;
   letter-spacing: 0.04em;
 
-  color: #757575;
+  color: #8e8f99;
 }
 
 .check-text::before {
@@ -927,7 +937,7 @@ body {
 }
 
 .modal-button {
-  display: flex;
+  display: block;
   align-items: center;
   justify-content: center;
   min-width: 169px;
@@ -945,9 +955,9 @@ body {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   margin: 0 auto;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition-property: background-color, box-shadow;
+  /* transition-property: background-color, box-shadow;
   transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); */
 }
 .modal-button:focus,
 .modal-button:hover {
