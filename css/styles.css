@@ -809,11 +809,8 @@ body {
   border: 1px solid rgba(46, 47, 66, 0.4);
   background-color: transparent;
   outline: transparent;
-/*   
-  transition-property: border-color, fill;
-  transition-duration: 250ms; */
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  /* transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); */
+  
 }
 
 .modal-icon {
@@ -826,7 +823,7 @@ body {
   border-color: #4D5AE5;
 }
 .modal-input:focus + .modal-icon {
-  fill: var(--color-brand-focus);
+  /* fill: var(--color-brand-focus); */
   border-color: #4D5AE5;
 }
 
