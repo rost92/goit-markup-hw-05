@@ -510,7 +510,7 @@ body {
 }
 
 .social-media-link:is(:hover, :focus) {
-  background-color: #31d0aa;
+  background-color: #4D5AE5;
 }
 
 .social-media-icon {
