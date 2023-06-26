@@ -432,7 +432,7 @@ body {
   color: var(--color-brand-focus);
 }
 
-/* ------- footer ----- */
+/*footer*/
 .background-footer {
   background-color: var(--color-text-title);
 }
@@ -474,7 +474,7 @@ body {
 .footer-logo:hover {
 }
 
-/*--------footer soc list------------- */
+/*footer soc list*/
 .social-media-content {
   display: block;
   margin-left: 100px;
@@ -589,7 +589,7 @@ body {
   background: #2e2f42;
 }
 
-/* --------portfolio <main>-------- */
+/*portfolio <main>*/
 
 .nav-list {
 }
@@ -630,7 +630,7 @@ body {
     0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
-/* ------сетка на flax-------*/
+/*сітка на flax*/
 .project.list {
   padding: 0;
   margin: 0;
@@ -699,7 +699,7 @@ body {
   border-bottom: 1px solid #e7e9fc;
 }
 
-/* ------сетка на flax-------*/
+/*сітка на flax*/
 
 .project-subtitle {
   font-weight: 500;
@@ -717,7 +717,7 @@ body {
   color: var(--color-text);
 }
 
-/*---------------modal-------------*/
+/*modal*/
 
 .backdrop {
   position: fixed;
@@ -944,4 +944,4 @@ body {
     0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
-/*---------------modal-------------*/
+/*modal*/
