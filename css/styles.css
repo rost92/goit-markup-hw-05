@@ -862,7 +862,13 @@ body {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
+.accent-check{
+  color: #4D5AE5;
+  text-decoration: underline;
+  display: inline;
+  letter-spacing: 0.03em;
 
+}
 .modal-message:focus {
   border-color: var(--color-brand-focus);
 }
