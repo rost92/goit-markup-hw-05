@@ -913,11 +913,46 @@ body {
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
-
   color: #8e8f99;
+  display: flex;
+  align-items: center;
+
+}
+.check-text a {
+  color: #4D5AE5;
+  text-decoration: underline;
+}
+.check-text span {
+  width: 16px;
+  height: 16px;
+  border-radius: 2px;
+  border: 1px solid var(--ocean, #404BBF);
+  margin-right: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  fill: transparent;
+}
+.input-check:checked + .check-text span {
+  background-color: #404bbf;
+  border: none;
+  fill:#F4F4FD;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
-.check-text::before {
+/* .check-text::before {
   content: '';
   width: 16px;
   height: 16px;
@@ -938,13 +973,13 @@ body {
   background-color: #404bbf;
 
   /* background-image: url(../images/icon-ok.svg); */
-  background-image: url(../images/icon-check-1.svg);
+  /* background-image: url(../images/icon-check-1.svg);
   background-repeat: no-repeat;
   background-position: center;
-}
-.input-check:focus + .check-text::before {
+} */
+/* .input-check:focus + .check-text::before {
   border-color: #404bbf;
-}
+} */ */
 
 .privacy-policy {
   margin-bottom: 10px;
