@@ -831,15 +831,12 @@ body {
 
 .modal-icon {
   transition-property: border-color, fill;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-input:focus {
   border-color: #4D5AE5;
 }
-.modal-input:focus + .modal-icon {
-  border-color: #4D5AE5;
+.modal-input:focus {
   fill: var(--color-brand-focus);
   
 }
