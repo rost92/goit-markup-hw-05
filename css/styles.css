@@ -932,7 +932,7 @@ body {
   text-decoration: underline;
 }
 
-.input-check:checked + .check-span {
+.input-check:checked + .check-text > .check-span {
   background-color: #404bbf;
   border: none;
   fill:#F4F4FD;
