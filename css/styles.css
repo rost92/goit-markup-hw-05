@@ -816,7 +816,6 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--color-text);
-
   width: 100%;
   height: 40px;
   margin-bottom: 8px;
@@ -826,7 +825,6 @@ body {
   background-color: transparent;
   outline: transparent;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  
 }
 
 .modal-icon {
@@ -836,9 +834,8 @@ body {
 .modal-input:focus {
   border-color: #4D5AE5;
 }
-.modal-input:focus {
-  fill: var(--color-brand-focus);
-  
+.modal-input:focus + .modal-icon {
+  fill: #4D5AE5; 
 }
 
 .input-text {
@@ -937,7 +934,8 @@ body {
 .input-check:checked + .check-text::before {
   background-color: #404bbf;
 
-  background-image: url(../images/icon-ok.svg);
+  /* background-image: url(../images/icon-ok.svg); */
+  background-image: url(../images/icon-check-1.svg);
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -966,9 +964,7 @@ body {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   margin: 0 auto;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  /* transition-property: background-color, box-shadow;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); */
+  
 }
 .modal-button:focus,
 .modal-button:hover {
