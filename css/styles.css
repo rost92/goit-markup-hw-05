@@ -930,16 +930,19 @@ body {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
+.input-check:checked + .accent-check {
+  background-color: #404bbf;
 
+}
 .input-check:checked + .check-text::before {
-  background-color: var(--color-brand-focus);
+  background-color: #404bbf;
 
   background-image: url(../images/icon-ok.svg);
   background-repeat: no-repeat;
   background-position: center;
 }
 .input-check:focus + .check-text::before {
-  border-color: var(--color-brand-focus);
+  border-color: #404bbf;
 }
 
 .privacy-policy {
