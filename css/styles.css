@@ -924,6 +924,7 @@ body {
   display: inline-flex;
   align-items: center;
   justify-content: center;
+  fill: transparent;
 }
 .check-text a {
   color: #4D5AE5;
@@ -933,9 +934,8 @@ body {
   width: 16px;
   height: 16px;
   border-radius: 2px;
-  border: 1px solid var(--ocean, #404BBF);
   margin-right: 8px;
-  fill: transparent;
+  
 }
 .input-check:checked + .check-text span {
   background-color: #404bbf;
