@@ -852,7 +852,9 @@ body {
   left: 16px;
   top: 50%;
   transform: translatey(-50%);
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: fill;
+  transition-duration:250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-textarea{
   margin-bottom: 16px;
