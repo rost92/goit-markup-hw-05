@@ -5,6 +5,8 @@
   --color-brand-focus: #404bbf;
   --color-button-text: #ffffff;
   --card-set-gap: 24px;
+  --color-modal: #4D5AE5;
+  --color-modal-chek: #F4F4FD;
 }
 p,
 h1,
@@ -835,11 +837,11 @@ margin-left: 16px;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-input:focus-within + .modal-icon {
-fill: var(--color-brand);
+fill: var(--color-modal);
 
 }
 .modal-input:focus {
-  border-color: var(--color-brand);
+  border-color: var(--color-modal);
 }
 .modal-icon {
   position: absolute;
@@ -870,7 +872,7 @@ fill: var(--color-brand);
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-textarea:focus {
-  border-color: var(--color-brand);;
+  border-color: var(--color-modal);;
 }
 .checkbox {
   margin-bottom: 24px;
@@ -878,7 +880,7 @@ fill: var(--color-brand);
 .privacy-checkbox:checked + .privacy-label > .privacy-span {
 background-color:  var(--color-brand-focus);
 border: none;
-fill: var(--color-button-text);
+fill: var(--color-modal-chek);
 }
 .privacy-label {
   font-size: 12px;
