@@ -567,7 +567,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 16px;
   font-family: "Roboto",sans-serif;
   font-size: 16px;
   font-weight: 500;
@@ -586,7 +585,7 @@ body {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .subscribe-icon{
-
+margin-left: 16px;
 }
 
 .subscribe-button:focus {
