@@ -510,7 +510,7 @@ body {
 }
 
 .social-media-link:is(:hover, :focus) {
-  background-color: #4D5AE5;
+  background-color: #31D0AA;
 }
 
 .social-media-icon {
@@ -529,9 +529,10 @@ body {
   color: #ffffff;
   margin-bottom: 16px;
   display: block;
-  margin-left: 24px;
+  margin-left: 80px;
 }
 .subscribe-form{
+  margin-left: 80px;
   display: flex;
   gap: 24px;
 }
